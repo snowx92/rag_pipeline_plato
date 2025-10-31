@@ -1,5 +1,7 @@
 # RAG Resume Evaluation System - Plato Assignment
 
+![Pipeline diagram](pipeline_diagram.png)
+
 Hi! This is my solution for the Plato RAG Engineering challenge. I built a system that scores job candidates by matching their resumes to job descriptions using a RAG pipeline.
 
 The core idea: take a resume and a job posting, extract the relevant bits using vector search, and produce a detailed JSON evaluation with scores and explanations. The system needs to be consistent (same input = same output every time) and reliable (always returns valid JSON).
